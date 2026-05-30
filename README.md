@@ -30,7 +30,6 @@ FlareScientificData_2026-05-15_dataset_v1/
 | Methane synchronized samples | 938 |
 | Propane/propene synchronized samples | 1,940 |
 
-The source folder name `propene` is retained in metadata for provenance. In the manuscript text, confirm the final terminology for the propane/propene fuel collection before public release.
 
 ## Repository Contents
 
