@@ -2,7 +2,7 @@
 
 SmartFlare is a synchronized multimodal flare-stack dataset collected in a laboratory environment on 2026-05-15. Each complete sample links RGB imagery, IR imagery, a thermal frame extracted from video, and the nearest gas-analyser record.
 
-This GitHub repository is the lightweight companion to the full dataset deposit. It contains metadata, gas-analyser tables, preprocessing code, release documentation, and checksum files. The large image payload is hosted separately on an institutional drive.
+This GitHub repository is the lightweight companion to the full dataset deposit. It contains metadata, gas-analyser tables, preprocessing code, release documentation, and checksum files. The large image payload is hosted separately on our institutional drive.
 
 ## Full Dataset Access
 
