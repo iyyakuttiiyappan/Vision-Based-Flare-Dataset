@@ -1,0 +1,14 @@
+fuel,set_id,rgb_images,ir_images,thermal_videos,reason
+methane,set-4,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+methane,set-5,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+methane,set-6,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+methane,set-7,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+methane,set-8,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+methane,set-9,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+methane,set-10,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+methane,set-11,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+propene,set-7,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+propene,set-8,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+propene,set-9,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+propene,set-10,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0
+propene,set-11,0,0,0,RGB images; IR images; thermal video count=0; start_times files=0; stop_times files=0

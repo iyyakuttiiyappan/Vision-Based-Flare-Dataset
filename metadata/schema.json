@@ -1,0 +1,29 @@
+{
+  "dataset": "FlareScientificData_2026-05-15_preprocessed",
+  "time_zone": "local laboratory computer time, as recorded in source files",
+  "modalities": {
+    "rgb": "PNG images from Application 3",
+    "ir": "PNG images from Application 3",
+    "thermal": "PNG frames extracted from Application 1 video",
+    "gas_analyser": "ENERAC 700-EMS rows matched by nearest timestamp"
+  },
+  "synchronization": {
+    "rgb_ir_pairing": "Each RGB image is paired to the nearest unused IR image by hexadecimal camera tick.",
+    "rgb_ir_timestamp": "Application 3 start time plus camera tick offset from the first observed RGB/IR tick in that run.",
+    "thermal_frame": "Nearest video frame index from Application 1 start time and OpenCV-reported FPS.",
+    "gas_row": "Nearest gas analyser row by wall-clock timestamp."
+  },
+  "columns": {
+    "dataset_manifest.csv": {
+      "sample_id": "Unique synchronized sample id.",
+      "fuel": "Fuel folder name from source data.",
+      "set_id": "Source set folder.",
+      "flow_setting": "Value from flow.txt when present.",
+      "sync_timestamp": "Mean timestamp of paired RGB and IR camera ticks.",
+      "rgb_path": "Curated relative RGB path.",
+      "ir_path": "Curated relative IR path.",
+      "thermal_path": "Curated relative thermal PNG frame path.",
+      "gas_*": "Matched gas analyser raw and numeric fields."
+    }
+  }
+}
