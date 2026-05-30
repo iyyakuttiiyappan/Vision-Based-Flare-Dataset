@@ -71,16 +71,11 @@ Example fields:
 
 The dataset is suitable for multimodal sensor fusion, image-to-gas regression, synchronization studies, and technical validation of flare monitoring workflows.
 
-## Publication Plan
-
-This repository is for the dataset/data-descriptor paper. Benchmarking outputs and model-comparison experiments are intentionally kept in a separate package so they can support a later machine-learning benchmarking paper.
 
 ## Citation
 
-Update `CITATION.cff` with the final GitHub URL, dataset DOI, and paper DOI before making the repository public.
+
 
 ## License
 
-Repository code is prepared under the MIT License. Confirm the final dataset license with the institution before release; `docs/DATA_LICENSE_NOTICE.md` contains a suggested CC BY 4.0 wording for the dataset deposit.
 
-Generated for GitHub upload on 2026-05-31.
