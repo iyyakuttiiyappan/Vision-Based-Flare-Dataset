@@ -4,9 +4,9 @@ SmartFlare is a synchronized multimodal flare-stack dataset collected in a labor
 
 This GitHub repository is the lightweight companion to the full dataset deposit. It contains metadata, gas-analyser tables, preprocessing code, release documentation, and checksum files. The large image payload is hosted separately on our institutional drive.
 
-## Full Dataset Access (contact: iyyakutti.ganapathi@ku.ac.ae)
+## Full Dataset Access 
 
-Full dataset link: **[SmartFlare drive dataset](https://kuacae-my.sharepoint.com/:f:/g/personal/iyyakutti_ganapathi_ku_ac_ae/IgB8IwLj3Oa-Q7oXbW1ou7JBAbPEtuy6UreUvFEy4709KlE?e=AOhr3V)**
+Full dataset link (contact: iyyakutti.ganapathi@ku.ac.ae): **[SmartFlare drive dataset](https://kuacae-my.sharepoint.com/:f:/g/personal/iyyakutti_ganapathi_ku_ac_ae/IgB8IwLj3Oa-Q7oXbW1ou7JBAbPEtuy6UreUvFEy4709KlE?e=AOhr3V)**
 
 Expected downloaded dataset folder:
 
