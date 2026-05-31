@@ -35,7 +35,7 @@ FlareScientificData_2026-05-15_dataset_v1/
 
 | Path | Contents |
 |---|---|
-| `data/` | Placeholder and institutional-drive link template. No image payload is stored in GitHub. |
+| `data/` | Drive link. |
 | `metadata/` | Dataset manifest, run table, schema, processing report, excluded sets, and skipped samples. |
 | `gas_analyser/` | Cleaned methane and propane/propene gas-analyser CSV files. |
 | `scripts/` | Reproducible preprocessing script. |
