@@ -6,7 +6,7 @@ This GitHub repository is the lightweight companion to the full dataset deposit.
 
 ## Full Dataset Access
 
-Full dataset link: **[SmartFlare institutional-drive dataset](https://kuacae-my.sharepoint.com/:f:/g/personal/iyyakutti_ganapathi_ku_ac_ae/IgB8IwLj3Oa-Q7oXbW1ou7JBAbPEtuy6UreUvFEy4709KlE?e=AOhr3V)**
+Full dataset link: **[SmartFlare dataset](https://kuacae-my.sharepoint.com/:f:/g/personal/iyyakutti_ganapathi_ku_ac_ae/IgB8IwLj3Oa-Q7oXbW1ou7JBAbPEtuy6UreUvFEy4709KlE?e=AOhr3V)**
 
 Expected downloaded dataset folder:
 
