@@ -2,7 +2,7 @@
 
 SmartFlare is a synchronized multimodal flare-stack dataset collected in a laboratory environment on 2026-05-15. Each complete sample links RGB imagery, IR imagery, a thermal frame extracted from video, and the nearest gas-analyser record.
 
-This GitHub repository is the lightweight companion to the full dataset deposit. It contains metadata, gas-analyser tables, preprocessing/QC code, release documentation, and checksum files. The large image payload is hosted separately on an institutional drive.
+This GitHub repository is the lightweight companion to the full dataset deposit. It contains metadata, gas-analyser tables, preprocessing/QC code, release documentation, and checksum files. The large image payload is hosted separately on a drive.
 
 ## Full Dataset Access
 
@@ -66,7 +66,7 @@ python scripts/generate_gas_qc_manifest.py
 
 ## Using The Dataset
 
-After downloading the full dataset from the institutional drive, load `metadata/dataset_manifest_qc.csv` for modelling. It contains all original manifest columns plus `gas_qc_flag`, `gas_qc_reasons`, and `gas_qc_warnings`. Use rows with `gas_qc_flag=ok` for baseline image-to-gas experiments. The unfiltered manifest remains available as `metadata/dataset_manifest.csv`.
+After downloading the full dataset from the drive, load `metadata/dataset_manifest_qc.csv` for modelling. It contains all original manifest columns plus `gas_qc_flag`, `gas_qc_reasons`, and `gas_qc_warnings`. Use rows with `gas_qc_flag=ok` for baseline image-to-gas experiments. The unfiltered manifest remains available as `metadata/dataset_manifest.csv`.
 
 Example fields:
 
