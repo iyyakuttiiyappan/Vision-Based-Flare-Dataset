@@ -34,3 +34,4 @@ SmartFlare synchronized multimodal flare imaging and gas-analyser dataset.
 - Adjacent frames are temporally correlated; random frame splits can overestimate generalization.
 - Confirm final propane/propene terminology before public release.
 - Some gas-analyser fields contain status strings, missing values, or sparse numeric coverage.
+- Use `metadata/dataset_manifest_qc.csv` and keep `gas_qc_flag=ok` rows for baseline modelling.

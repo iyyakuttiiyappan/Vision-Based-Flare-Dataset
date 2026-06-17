@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-06-16T11:13:01",
+  "input_manifest": "C:\\Users\\ADMIN\\Documents\\IYYAKUTTI\\FlareAnalysis\\FlareScientificData_2026-05-15_preprocessed\\metadata\\dataset_manifest.csv",
+  "output_manifest": "C:\\Users\\ADMIN\\Documents\\IYYAKUTTI\\FlareAnalysis\\FlareScientificData_2026-05-15_preprocessed\\metadata\\dataset_manifest_qc.csv",
+  "rules": {
+    "target_ranges": {
+      "gas_stack_temp_c": [
+        30.0,
+        1000.0
+      ],
+      "gas_oxygen_percent": [
+        0.0,
+        23.0
+      ],
+      "gas_carbon_monoxide_ppm": [
+        0.0,
+        50000.0
+      ],
+      "gas_carbon_dioxide_percent": [
+        0.0,
+        15.0
+      ]
+    },
+    "reject_patterns": [
+      "stack draft absolute value > 100 inWC, suggesting column shift",
+      "oxygen + carbon dioxide > 23 percent",
+      "small stack temperature numerically equal to oxygen",
+      "oxygen, CO, and CO2 exactly identical and non-zero",
+      "CO ppm equals CO2 percent and oxygen exactly"
+    ],
+    "warnings": [
+      "ambient temperature missing or outside 0-80 C",
+      "excess air > 5000 percent"
+    ]
+  },
+  "row_counts": {
+    "ok": 2150,
+    "reject": 728
+  },
+  "reason_counts": {
+    "oxygen_plus_co2_gt_23": 433,
+    "oxygen_percent_outside_0_23": 399,
+    "carbon_dioxide_percent_outside_0_15": 363,
+    "stack_draft_abs_gt_100_column_shift": 242,
+    "carbon_monoxide_ppm_missing": 238,
+    "stack_temp_equals_oxygen_small": 73,
+    "stack_temp_c_outside_30_1000": 41,
+    "carbon_dioxide_percent_missing": 27,
+    "oxygen_co_co2_identical_nonzero": 10,
+    "co_ppm_equals_co2_percent_and_oxygen": 8,
+    "stack_temp_c_missing": 3,
+    "oxygen_percent_missing": 1
+  },
+  "warning_counts": {
+    "excess_air_gt_5000": 50,
+    "ambient_temp_missing": 20,
+    "ambient_temp_outside_0_80": 6
+  },
+  "by_fuel": {
+    "methane": {
+      "ok": 772,
+      "reject": 166
+    },
+    "propene": {
+      "ok": 1378,
+      "reject": 562
+    }
+  },
+  "by_run": {
+    "methane/set-001": {
+      "ok": 152,
+      "reject": 30
+    },
+    "methane/set-002": {
+      "ok": 331,
+      "reject": 73
+    },
+    "methane/set-003": {
+      "ok": 289,
+      "reject": 63
+    },
+    "propene/set-001": {
+      "ok": 237,
+      "reject": 68
+    },
+    "propene/set-002": {
+      "ok": 242,
+      "reject": 64
+    },
+    "propene/set-003": {
+      "ok": 252,
+      "reject": 50
+    },
+    "propene/set-004": {
+      "ok": 150,
+      "reject": 158
+    },
+    "propene/set-005": {
+      "reject": 160,
+      "ok": 156
+    },
+    "propene/set-006": {
+      "reject": 62,
+      "ok": 341
+    }
+  },
+  "repeated_gas_timestamp_distribution": {
+    "1": 2692,
+    "2": 82,
+    "3": 6,
+    "4": 1
+  },
+  "repeated_gas_timestamp_groups": 89,
+  "samples_on_repeated_gas_timestamps": 186
+}

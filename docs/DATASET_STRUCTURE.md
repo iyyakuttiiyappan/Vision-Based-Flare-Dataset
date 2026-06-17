@@ -12,15 +12,19 @@ FlareScientificData_2026-05-15_dataset_v1/
     propene_gas_clean.csv
   metadata/
     dataset_manifest.csv
+    dataset_manifest_qc.csv
+    gas_qc_report.json
+    gas_qc_summary.csv
     runs.csv
     excluded_sets.csv
     skipped_samples.csv
     processing_report.json
     schema.json
   scripts/
+    generate_gas_qc_manifest.py
     preprocess_flare_dataset.py
     requirements_flare_preprocessing.txt
   README.md
 ```
 
-The `data/` directory contains synchronized RGB, IR, and thermal PNG images organized by fuel and acquisition run. The manifest is the primary index for loading the dataset.
+The `data/` directory contains synchronized RGB, IR, and thermal PNG images organized by fuel and acquisition run. The QC manifest is the recommended index for modelling; the original manifest is retained for audit.
