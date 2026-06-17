@@ -77,4 +77,3 @@ Example fields:
 
 The dataset is suitable for multimodal sensor fusion, image-to-gas regression, synchronization studies, and technical validation of flare monitoring workflows.
 
-ted for GitHub upload on 2026-06-16.
